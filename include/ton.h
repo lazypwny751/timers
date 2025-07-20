@@ -7,4 +7,6 @@ typedef struct {
 	int active;
 } TON;
 
+extern int ton_clock;
+
 #endif

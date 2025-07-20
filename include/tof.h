@@ -7,4 +7,6 @@ typedef struct {
 	int active;
 } TOF;
 
+extern int tof_clock;
+
 #endif
