@@ -1,1 +1,30 @@
-build/
+# Build output
+/build/
+*.o
+*.out
+*.exe
+*.a
+*.so
+*.dll
+
+# Editor/IDE metadata
+*.swp
+*.swo
+*.bak
+*~
+
+# VS Code
+.vscode/
+
+# CLion
+.idea/
+cmake-build-*/
+
+# MacOS
+.DS_Store
+
+# Logs
+*.log
+
+# Dependency or test coverage (optional)
+coverage/
