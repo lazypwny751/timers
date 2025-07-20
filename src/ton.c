@@ -1,5 +1,5 @@
 // ton.c
-#include "include/ton.h"
+#include "ton.h"
 
 void TON_Init(TON* timer, uint32_t presetTimeMs) {
     timer->IN = false;

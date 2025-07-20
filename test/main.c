@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <unistd.h> // for usleep
-#include "include/ton.h"
+#include "ton.h"
 
 uint32_t getSystemTimeMs() {
     static uint32_t simulatedTime = 0;
